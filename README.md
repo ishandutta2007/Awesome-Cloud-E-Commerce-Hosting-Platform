@@ -63,42 +63,42 @@ The sector exhibits a **moderately fragmented** structure characterized by disti
 
 ## 💻 Open-Source GitHub Projects
 
-Curated self-hosted e-commerce engines, frameworks, and headless commerce platforms sorted by **GitHub Stars (Descending)**. Each repository provides full source code freedom with zero GMV licensing penalties.
+Curated self-hosted e-commerce engines, frameworks, and headless commerce platforms sorted by **GitHub_Stars (Descending)**. Each repository provides full source code freedom with zero GMV licensing penalties.
 
-- **[Medusa](https://github.com/medusajs/medusa)** [![GitHub Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+- **[Medusa](https://github.com/medusajs/medusa)** [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
   **The leading Node.js headless commerce engine.** MIT licensed. Highly modular architecture with 22 independent commerce modules, an orchestration workflow engine for complex multi-step digital operations, and a production-ready Next.js storefront starter. *Best for JavaScript and TypeScript engineers crafting custom composable digital shopping experiences with complete stack control.*
 
-- **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)  
+- **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub_Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)  
   **The enterprise Laravel & Vue.js e-commerce framework.** MIT licensed. Complete out-of-the-box commerce solution with multi-currency, multi-inventory, localization, advanced reporting, and integrated marketplace extensions. *Best for PHP/Laravel teams looking for rapid development, lightweight hosting footprints, and comprehensive B2B/B2C capabilities.*
 
-- **[Saleor](https://github.com/saleor/saleor)** [![GitHub Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
+- **[Saleor](https://github.com/saleor/saleor)** [![GitHub_Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
   **The GraphQL-native composable commerce backend.** BSD-3-Clause licensed. Built in Python/Django with a lightning-fast TypeScript dashboard and an extensible App SDK for microservices. Every commerce capability is cleanly exposed through an enterprise GraphQL API. *Best for high-growth engineering teams standardizing on GraphQL for multi-channel omnichannel commerce.*
 
-- **[Spree Commerce](https://github.com/spree/spree)** [![GitHub Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
+- **[Spree Commerce](https://github.com/spree/spree)** [![GitHub_Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
   **The battle-tested Ruby on Rails modular commerce engine.** BSD-3-Clause licensed. Over a decade of rock-solid production pedigree powering thousands of global storefronts, featuring Next.js and Vue storefront integrations, multi-store support, and clean REST/GraphQL APIs. *Best for Ruby and full-stack teams seeking exceptional developer productivity and stability.*
 
-- **[Magento Open Source](https://github.com/magento/magento2)** [![GitHub Stars](https://img.shields.io/github/stars/magento/magento2?style=social&color=white)](https://github.com/magento/magento2/stargazers)  
+- **[Magento Open Source](https://github.com/magento/magento2)** [![GitHub_Stars](https://img.shields.io/github/stars/magento/magento2?style=social&color=white)](https://github.com/magento/magento2/stargazers)  
   **The proven open-source foundation behind Adobe Commerce.** OSL-3.0 licensed. Extremely deep ecommerce functionality, a vast global marketplace of thousands of extensions, visual page builders, and deep enterprise catalog modeling. *Best for established retail brands and technical PHP teams desiring infinite customization without enterprise cloud GMV fees.*
 
-- **[WooCommerce](https://github.com/woocommerce/woocommerce)** [![GitHub Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers)  
+- **[WooCommerce](https://github.com/woocommerce/woocommerce)** [![GitHub_Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers)  
   **The world's most widely deployed open-source e-commerce platform.** GPL-3.0 licensed. Built on WordPress, WooCommerce powers millions of active web storefronts worldwide with an expansive plugin ecosystem, universal gateway support, and full store autonomy. *Best for content-led commerce, WordPress power users, and agile merchants scaling self-hosted shops.*
 
-- **[PrestaShop](https://github.com/PrestaShop/PrestaShop)** [![GitHub Stars](https://img.shields.io/github/stars/PrestaShop/PrestaShop?style=social&color=white)](https://github.com/PrestaShop/PrestaShop/stargazers)  
+- **[PrestaShop](https://github.com/PrestaShop/PrestaShop)** [![GitHub_Stars](https://img.shields.io/github/stars/PrestaShop/PrestaShop?style=social&color=white)](https://github.com/PrestaShop/PrestaShop/stargazers)  
   **Europe's premier open-source shopping cart solution.** OSL-3.0 licensed. Symfony-based architecture offering localized multi-language and multi-currency management, catalog navigation, and hundreds of payment integrations. *Best for European cross-border sellers and SMB merchants seeking a turnkey self-hosted web store.*
 
-- **[Sylius](https://github.com/Sylius/Sylius)** [![GitHub Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)  
+- **[Sylius](https://github.com/Sylius/Sylius)** [![GitHub_Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)  
   **The modern Symfony/PHP framework for bespoke e-commerce.** MIT licensed. Engineered with extreme adherence to clean code, test-driven development (TDD), and modular decoupled components that can be operated standalone or assembled into a complete storefront. *Best for engineering teams wanting an unopinionated framework rather than a rigid platform.*
 
-- **[Vendure](https://github.com/vendure-ecommerce/vendure)** [![GitHub Stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers)  
+- **[Vendure](https://github.com/vendure-ecommerce/vendure)** [![GitHub_Stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers)  
   **The headless TypeScript commerce engine built on NestJS.** MIT licensed. Native GraphQL APIs, type-safe database migrations with TypeORM, and an elegant micro-plugin architecture that integrates smoothly with modern frontends (Remix, Next.js, Nuxt). *Best for modern TypeScript/Node.js developers wanting clean architecture and high velocity.*
 
-- **[OpenCart](https://github.com/opencart/opencart)** [![GitHub Stars](https://img.shields.io/github/stars/opencart/opencart?style=social&color=white)](https://github.com/opencart/opencart/stargazers)  
+- **[OpenCart](https://github.com/opencart/opencart)** [![GitHub_Stars](https://img.shields.io/github/stars/opencart/opencart?style=social&color=white)](https://github.com/opencart/opencart/stargazers)  
   **The classic lightweight PHP shopping cart system.** GPL-3.0 licensed. Remarkably fast setup with minimal server resource requirements, simple templating, and thousands of modules. *Best for lean teams, straightforward product catalogs, and budget-friendly self-hosted cloud instances.*
 
-- **[Shopware Community Edition](https://github.com/shopware/shopware)** [![GitHub Stars](https://img.shields.io/github/stars/shopware/shopware?style=social&color=white)](https://github.com/shopware/shopware/stargazers)  
+- **[Shopware Community Edition](https://github.com/shopware/shopware)** [![GitHub_Stars](https://img.shields.io/github/stars/shopware/shopware?style=social&color=white)](https://github.com/shopware/shopware/stargazers)  
   **The developer-friendly European open commerce platform.** MIT licensed. Powered by Symfony and Vue.js, featuring visual Shopping Experiences CMS builders, rule builders, and an API-first headless design. *Best for brands desiring high visual merchandising control and European compliance out of the box.*
 
-- **[OroCommerce Community Edition](https://github.com/oroinc/orocommerce)** [![GitHub Stars](https://img.shields.io/github/stars/oroinc/orocommerce?style=social&color=white)](https://github.com/oroinc/orocommerce/stargazers)  
+- **[OroCommerce Community Edition](https://github.com/oroinc/orocommerce)** [![GitHub_Stars](https://img.shields.io/github/stars/oroinc/orocommerce?style=social&color=white)](https://github.com/oroinc/orocommerce/stargazers)  
   **The purpose-built open-source B2B commerce platform.** OSL-3.0 licensed. Built on Symfony with embedded CRM/ERP integration, supporting complex corporate account hierarchies, buyer purchasing approval workflows, customized price lists, and quote-to-order lifecycles. *Best for B2B distributors, wholesalers, and manufacturers.*
 
 ---
