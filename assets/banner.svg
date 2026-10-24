@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Tech Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="1" fill="#64748b" fill-opacity="0.5" />
+    </pattern>
+
+    <!-- Dynamic Pulse Animations -->
+    <style>
+      .glow-pulse-1 {
+        animation: pulse1 6s ease-in-out infinite alternate;
+      }
+      .glow-pulse-2 {
+        animation: pulse2 8s ease-in-out infinite alternate;
+      }
+      .stream-line {
+        stroke-dasharray: 8 12;
+        animation: dash 20s linear infinite;
+      }
+      .stream-line-rev {
+        stroke-dasharray: 6 10;
+        animation: dash-rev 15s linear infinite;
+      }
+      .orbit-node {
+        animation: float 4s ease-in-out infinite alternate;
+      }
+      .orbit-node-delayed {
+        animation: float 4s ease-in-out 2s infinite alternate;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -1000; }
+      }
+      @keyframes dash-rev {
+        to { stroke-dashoffset: 1000; }
+      }
+      @keyframes pulse1 {
+        0% { transform: scale(0.9) translate(0, 0); opacity: 0.3; }
+        100% { transform: scale(1.15) translate(30px, 20px); opacity: 0.65; }
+      }
+      @keyframes pulse2 {
+        0% { transform: scale(1.1) translate(0, 0); opacity: 0.25; }
+        100% { transform: scale(0.85) translate(-40px, -20px); opacity: 0.55; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" fill="url(#gridPattern)" />
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <g filter="blur(40px)">
+    <circle class="glow-pulse-1" cx="220" cy="180" r="180" fill="url(#glowCyan)" />
+    <circle class="glow-pulse-2" cx="980" cy="220" r="220" fill="url(#glowPurple)" />
+  </g>
+
+  <!-- Subtle Dynamic Tech Wave / Circuit Streams in Background -->
+  <g fill="none" opacity="0.35">
+    <path class="stream-line" d="M -50 100 Q 300 40 600 120 T 1250 80" stroke="#38bdf8" stroke-width="1.5" />
+    <path class="stream-line-rev" d="M -50 320 Q 350 380 700 300 T 1250 340" stroke="#a855f7" stroke-width="1.5" />
+    <path class="stream-line" d="M 100 420 C 300 280 400 360 700 240 S 1050 380 1250 200" stroke="#6366f1" stroke-width="1.2" />
+  </g>
+
+  <!-- Decorative Orbiting Cloud Nodes (Dynamic/Floating Background elements) -->
+  <g class="orbit-node" opacity="0.75">
+    <rect x="80" y="55" width="130" height="34" rx="17" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="98" cy="72" r="5" fill="#38bdf8" />
+    <text x="112" y="77" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">☁️ Cloud Native</text>
+  </g>
+
+  <g class="orbit-node-delayed" opacity="0.75">
+    <rect x="990" y="65" width="135" height="34" rx="17" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1" />
+    <circle cx="1008" cy="82" r="5" fill="#a855f7" />
+    <text x="1022" y="87" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚡ Headless APIs</text>
+  </g>
+
+  <g class="orbit-node" opacity="0.75">
+    <rect x="1020" y="325" width="115" height="34" rx="17" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1" />
+    <circle cx="1038" cy="342" r="5" fill="#ec4899" />
+    <text x="1052" y="347" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🛡️ Self-Hosted</text>
+  </g>
+
+  <g class="orbit-node-delayed" opacity="0.75">
+    <rect x="65" y="320" width="145" height="34" rx="17" fill="url(#cardGrad)" stroke="#3b82f6" stroke-width="1" />
+    <circle cx="83" cy="337" r="5" fill="#3b82f6" />
+    <text x="97" y="342" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🚀 Composable Stack</text>
+  </g>
+
+  <!-- Central Foreground Content (Guaranteed crisp and in foreground) -->
+  <g id="foreground-content">
+    <!-- Top Pill Badge -->
+    <rect x="440" y="48" width="320" height="32" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="url(#primaryGrad)" stroke-width="1.2" />
+    <text x="600" y="69" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">⚡ CURATED AWESOME ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="600" y="145" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="44" font-weight="900" letter-spacing="-1">
+      Cloud E-Commerce Hosting
+    </text>
+
+    <!-- Highlight Accent Subtitle Gradient -->
+    <text x="600" y="195" text-anchor="middle" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="25" font-weight="700" letter-spacing="0.2">
+      Enterprise Platforms &bull; Composable SaaS &bull; Open-Source Storefronts
+    </text>
+
+    <!-- Tagline & Description in Foreground -->
+    <text x="600" y="240" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400">
+      Comprehensive architectural directory comparing GMV pricing, free tier limits, benchmarks &amp; self-hosted power.
+    </text>
+
+    <!-- Feature Pillars Cards in Foreground -->
+    <g transform="translate(240, 275)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="220" height="54" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#334155" stroke-width="1" />
+      <text x="110" y="24" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">🏢 Enterprise SaaS</text>
+      <text x="110" y="42" text-anchor="middle" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Shopify Plus &bull; SAP &bull; Salesforce</text>
+
+      <!-- Card 2 -->
+      <rect x="250" y="0" width="220" height="54" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#334155" stroke-width="1" />
+      <text x="360" y="24" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">🧩 Composable &amp; MACH</text>
+      <text x="360" y="42" text-anchor="middle" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">commercetools &bull; Spryker &bull; EP</text>
+
+      <!-- Card 3 -->
+      <rect x="500" y="0" width="220" height="54" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#334155" stroke-width="1" />
+      <text x="610" y="24" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">💻 Self-Hosted OSS</text>
+      <text x="610" y="42" text-anchor="middle" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Medusa &bull; Bagisto &bull; Saleor &bull; Spree</text>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <text x="600" y="380" text-anchor="middle" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+      ⭐ Community Curated &bull; Open Source Friendly &bull; Transparent GMV Cost Analysis &bull; Updated 2026
+    </text>
+  </g>
+</svg>
