@@ -143,3 +143,5 @@ If you find this curated resource helpful for your architectural research or clo
 <div align="center">
   <sub>Built with ❤️ for commerce engineers, cloud architects, and digital retail leaders.</sub>
 </div>
+# Awesome-Cloud-E-Commerce-Hosting-Platform
+
