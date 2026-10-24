@@ -145,82 +145,160 @@ If you find this curated resource helpful for your architectural research or clo
 </div>
 # Awesome-Cloud-E-Commerce-Hosting-Platform
 
-# Top Cloud E-Commerce Hosting Platform Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Enterprise Commerce Cloud Hosting, Composable Platforms & Self-Hosted Storefronts*  
-**Last updated: October 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud E-Commerce Hosting**. These platforms enable merchants and enterprises to launch and scale online stores—handling product catalogs, checkout, order management, and hosting infrastructure—ranging from fully managed SaaS solutions to self-hosted open-source platforms that you control entirely.
-
-**Examples** include Adobe Commerce Cloud (Magento), Shopify Plus, Salesforce Commerce Cloud, BigCommerce Enterprise, SAP Commerce Cloud, commercetools, Spryker, OroCommerce, Shopware Cloud, and Elastic Path (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding GMV-based licensing fees, and controlling the commerce stack. The open-source landscape is anchored by **Magento Open Source** (the free edition behind Adobe Commerce), **Sylius** (the Symfony-based framework), **Medusa** (the Node.js headless engine), and **Saleor** (the GraphQL-native Python backend), with **OroCommerce** serving complex B2B needs.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing | Free Tier Limit |
-| :--- | :--- | :--- | :--- |
-| **[Shopify Plus](https://www.shopify.com/plus)** | Enterprise tier of Shopify with native B2B, checkout extensibility, and unlimited staff accounts. | **$2,300/month** (3-year term) or **$2,500/month** (1-year term) for US billing . Additional variable platform fees apply for high-volume or complex B2B/D2C models . | **No free tier**. Trial available via sales. |
-| **[Adobe Commerce Cloud (Magento)](https://business.adobe.com/products/magento/magento-commerce.html)** | Enterprise Magento with cloud hosting, B2B features, and AI-powered merchandising. | **Quote-only**. Pricing is GMV-based and set via order form; no public list prices . Third-party estimates suggest **~$40,000/year** starting for cloud deployments . | **No free tier**. Trial via sales. |
-| **[Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/)** | Enterprise B2B/B2C commerce on the Salesforce platform. | **B2C Commerce**: From **1% of Gross Merchandise Value (GMV)** (annual billing) . **Order Management**: 1% of GMV per order . B2B and D2C editions require annual subscription with custom quotes . | **No free tier**. Demo via sales. |
-| **[BigCommerce Enterprise](https://www.bigcommerce.com/enterprise/)** | Open SaaS platform with native B2B and headless capabilities. | **Enterprise**: Pricing based on online sales volume; **Standard** at $39/mo, **Plus** at $105/mo, **Pro** starting at **$399/mo** (scaling +$150/mo per additional $200k in sales) . Enterprise contracts negotiated via sales . | **15-day free trial** available on all plans . No permanent free tier. |
-| **[SAP Commerce Cloud](https://www.sap.com/products/crm/commerce-cloud.html)** | Enterprise commerce tightly integrated with SAP ERP. | **Quote-only**. No public list pricing; baseline activation service is a separate one-time fee . Third-party estimates place first-year TCO at **~$790K** for a $50M GMV merchant . | **No free tier**. Demo via sales. |
-| **[commercetools](https://commercetools.com/)** | API-first, composable commerce platform for enterprise flexibility. | **Quote-only**. No public list prices; commercial terms set via contract . Training courses priced separately (e.g., Functional Architect Training at **€1,200/seat**) . | **No free tier**. Demo via sales. |
-| **[Spryker](https://spryker.com/)** | Composable, API-first B2B commerce and marketplace platform. | **Quote-only**. No public list prices; commercial terms set via contract. | **No free tier**. Demo via sales. |
-| **[OroCommerce](https://oroinc.com/)** | Purpose-built B2B commerce platform with native CRM/ERP integration. | **Quote-only**. No public list rates; enterprise-tier pricing negotiated via sales . | **No free tier**. Demo via sales. |
-| **[Shopware Cloud](https://www.shopware.com/)** | European open-source commerce platform with a managed cloud tier. | **Quote-only** for Cloud. Self-hosted Community Edition is free . | **Community Edition** (self-hosted) is free. Cloud has no permanent free tier. |
-| **[Elastic Path](https://www.elasticpath.com/)** | Composable commerce platform for B2B and complex catalogs. | **Quote-only**. No public list rates; enterprise-tier pricing negotiated via sales. | **No free tier**. Demo via sales. |
-
-## Open-Source GitHub Projects
-
-- **[Magento Open Source](https://github.com/magento/magento2)** [![GitHub Stars](https://img.shields.io/github/stars/magento/magento2?style=social&color=white)](https://github.com/magento/magento2/stargazers)  
-  **The free edition behind Adobe Commerce.** Open Software License 3.0. Full-featured ecommerce platform with a massive extension marketplace, WYSIWYG page builder, and complete codebase access. **Trade-offs**: resource-intensive; requires PHP/DevOps expertise to host and maintain. Best for developers and SMBs wanting full control over their storefront without GMV-based licensing fees.
-
-- **[Medusa](https://github.com/medusajs/medusa)** [![GitHub Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
-  **The leading Node.js headless commerce engine.** MIT licensed. Modular architecture with 22 independent commerce modules, a workflow engine for multi-step operations, and a Next.js starter storefront. Best for JavaScript/TypeScript teams building custom commerce experiences with full control.
-
-- **[Saleor](https://github.com/saleor/saleor)** [![GitHub Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
-  **The GraphQL-native commerce backend.** BSD-3-Clause licensed. Python/Django backend with a TypeScript dashboard and an App SDK for extensions. Entire commerce surface exposed through a single GraphQL API. Best for teams wanting GraphQL as the primary commerce API.
-
-- **[Sylius](https://github.com/Sylius/Sylius)** [![GitHub Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)  
-  **The Symfony/PHP framework for ecommerce.** MIT licensed. Built from decoupled components that can be used standalone or assembled into a full-stack platform. Strong B2B capabilities and high code quality. Best for PHP teams wanting a framework rather than a platform.
-
-- **[OroCommerce](https://github.com/oroinc/orocommerce)** [![GitHub Stars](https://img.shields.io/github/stars/oroinc/orocommerce?style=social&color=white)](https://github.com/oroinc/orocommerce/stargazers)  
-  **The open-source B2B commerce platform.** Built on Symfony with native CRM and ERP integration capabilities. Handles account hierarchies, negotiated pricing, and complex B2B workflows. Recognized in Gartner's Magic Quadrant for Digital Commerce . Best for B2B manufacturers and distributors needing deep back-office integration.
-
-### Additional Strong Open-Source Options
-
-- **Spree** — Ruby-based commerce engine with a modern Next.js storefront. Best for Ruby teams wanting a battle-tested engine.
-- **Vendure** — TypeScript-first headless commerce framework with GraphQL and a plugin architecture. Best for TypeScript teams wanting a modern Node.js stack.
-- **Shopware Community Edition** — Free self-hosted edition of Shopware. Best for European merchants wanting a mature open-source platform with B2B features.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- **Enterprise commerce pricing is GMV-based and opaque**: Salesforce Commerce Cloud charges **1% of GMV** for B2C ; Adobe Commerce Cloud uses GMV-based order forms without public rates ; SAP and commercetools are quote-only. Open-source alternatives eliminate these recurring percentage-of-revenue fees.
-- **Shopify Plus's $2,300/month is a floor, not the full budget**: variable platform fees apply for high-volume stores and complex B2B/D2C models . Realistic total cost including apps, theme, and development is typically several times the platform fee.
-- **BigCommerce offers the most transparent pricing**: Standard at $39/mo, Plus at $105/mo, Pro at $399/mo with volume-based scaling . Enterprise remains quote-only.
-- **Open-source platforms require infrastructure**: Magento, Medusa, and Saleor all need servers, databases, and maintenance—free software is not free operations.
-
----
-
-**Made for merchants, commerce architects, and developers building scalable online stores.**  
+## Top Cloud E-Commerce Hosting Platform Ecosystem
+
+
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+
+*Focused on Enterprise Commerce Cloud Hosting, Composable Platforms & Self-Hosted Storefronts*  
+
+**Last updated: October 2026**
+
+
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud E-Commerce Hosting**. These platforms enable merchants and enterprises to launch and scale online stores—handling product catalogs, checkout, order management, and hosting infrastructure—ranging from fully managed SaaS solutions to self-hosted open-source platforms that you control entirely.
+
+
+
+**Examples** include Adobe Commerce Cloud (Magento), Shopify Plus, Salesforce Commerce Cloud, BigCommerce Enterprise, SAP Commerce Cloud, commercetools, Spryker, OroCommerce, Shopware Cloud, and Elastic Path (the category leaders).
+
+
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding GMV-based licensing fees, and controlling the commerce stack. The open-source landscape is anchored by **Magento Open Source** (the free edition behind Adobe Commerce), **Sylius** (the Symfony-based framework), **Medusa** (the Node.js headless engine), and **Saleor** (the GraphQL-native Python backend), with **OroCommerce** serving complex B2B needs.
+
+
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+
+- [Open-Source GitHub Projects](#open-source-github-projects)
+
+- [How to Contribute](#how-to-contribute)
+
+- [Disclaimer](#disclaimer)
+
+
+
+## SaaS/Hosted Platforms
+
+
+
+| Product | Description | Pricing | Free Tier Limit |
+
+| :--- | :--- | :--- | :--- |
+
+| **[Shopify Plus](https://www.shopify.com/plus)** | Enterprise tier of Shopify with native B2B, checkout extensibility, and unlimited staff accounts. | **$2,300/month** (3-year term) or **$2,500/month** (1-year term) for US billing . Additional variable platform fees apply for high-volume or complex B2B/D2C models . | **No free tier**. Trial available via sales. |
+
+| **[Adobe Commerce Cloud (Magento)](https://business.adobe.com/products/magento/magento-commerce.html)** | Enterprise Magento with cloud hosting, B2B features, and AI-powered merchandising. | **Quote-only**. Pricing is GMV-based and set via order form; no public list prices . Third-party estimates suggest **~$40,000/year** starting for cloud deployments . | **No free tier**. Trial via sales. |
+
+| **[Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/)** | Enterprise B2B/B2C commerce on the Salesforce platform. | **B2C Commerce**: From **1% of Gross Merchandise Value (GMV)** (annual billing) . **Order Management**: 1% of GMV per order . B2B and D2C editions require annual subscription with custom quotes . | **No free tier**. Demo via sales. |
+
+| **[BigCommerce Enterprise](https://www.bigcommerce.com/enterprise/)** | Open SaaS platform with native B2B and headless capabilities. | **Enterprise**: Pricing based on online sales volume; **Standard** at $39/mo, **Plus** at $105/mo, **Pro** starting at **$399/mo** (scaling +$150/mo per additional $200k in sales) . Enterprise contracts negotiated via sales . | **15-day free trial** available on all plans . No permanent free tier. |
+
+| **[SAP Commerce Cloud](https://www.sap.com/products/crm/commerce-cloud.html)** | Enterprise commerce tightly integrated with SAP ERP. | **Quote-only**. No public list pricing; baseline activation service is a separate one-time fee . Third-party estimates place first-year TCO at **~$790K** for a $50M GMV merchant . | **No free tier**. Demo via sales. |
+
+| **[commercetools](https://commercetools.com/)** | API-first, composable commerce platform for enterprise flexibility. | **Quote-only**. No public list prices; commercial terms set via contract . Training courses priced separately (e.g., Functional Architect Training at **€1,200/seat**) . | **No free tier**. Demo via sales. |
+
+| **[Spryker](https://spryker.com/)** | Composable, API-first B2B commerce and marketplace platform. | **Quote-only**. No public list prices; commercial terms set via contract. | **No free tier**. Demo via sales. |
+
+| **[OroCommerce](https://oroinc.com/)** | Purpose-built B2B commerce platform with native CRM/ERP integration. | **Quote-only**. No public list rates; enterprise-tier pricing negotiated via sales . | **No free tier**. Demo via sales. |
+
+| **[Shopware Cloud](https://www.shopware.com/)** | European open-source commerce platform with a managed cloud tier. | **Quote-only** for Cloud. Self-hosted Community Edition is free . | **Community Edition** (self-hosted) is free. Cloud has no permanent free tier. |
+
+| **[Elastic Path](https://www.elasticpath.com/)** | Composable commerce platform for B2B and complex catalogs. | **Quote-only**. No public list rates; enterprise-tier pricing negotiated via sales. | **No free tier**. Demo via sales. |
+
+
+
+## Open-Source GitHub Projects
+
+
+
+- **[Magento Open Source](https://github.com/magento/magento2)** [![GitHub Stars](https://img.shields.io/github/stars/magento/magento2?style=social&color=white)](https://github.com/magento/magento2/stargazers)  
+
+  **The free edition behind Adobe Commerce.** Open Software License 3.0. Full-featured ecommerce platform with a massive extension marketplace, WYSIWYG page builder, and complete codebase access. **Trade-offs**: resource-intensive; requires PHP/DevOps expertise to host and maintain. Best for developers and SMBs wanting full control over their storefront without GMV-based licensing fees.
+
+
+
+- **[Medusa](https://github.com/medusajs/medusa)** [![GitHub Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+
+  **The leading Node.js headless commerce engine.** MIT licensed. Modular architecture with 22 independent commerce modules, a workflow engine for multi-step operations, and a Next.js starter storefront. Best for JavaScript/TypeScript teams building custom commerce experiences with full control.
+
+
+
+- **[Saleor](https://github.com/saleor/saleor)** [![GitHub Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
+
+  **The GraphQL-native commerce backend.** BSD-3-Clause licensed. Python/Django backend with a TypeScript dashboard and an App SDK for extensions. Entire commerce surface exposed through a single GraphQL API. Best for teams wanting GraphQL as the primary commerce API.
+
+
+
+- **[Sylius](https://github.com/Sylius/Sylius)** [![GitHub Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)  
+
+  **The Symfony/PHP framework for ecommerce.** MIT licensed. Built from decoupled components that can be used standalone or assembled into a full-stack platform. Strong B2B capabilities and high code quality. Best for PHP teams wanting a framework rather than a platform.
+
+
+
+- **[OroCommerce](https://github.com/oroinc/orocommerce)** [![GitHub Stars](https://img.shields.io/github/stars/oroinc/orocommerce?style=social&color=white)](https://github.com/oroinc/orocommerce/stargazers)  
+
+  **The open-source B2B commerce platform.** Built on Symfony with native CRM and ERP integration capabilities. Handles account hierarchies, negotiated pricing, and complex B2B workflows. Recognized in Gartner's Magic Quadrant for Digital Commerce . Best for B2B manufacturers and distributors needing deep back-office integration.
+
+
+
+### Additional Strong Open-Source Options
+
+
+
+- **Spree** — Ruby-based commerce engine with a modern Next.js storefront. Best for Ruby teams wanting a battle-tested engine.
+
+- **Vendure** — TypeScript-first headless commerce framework with GraphQL and a plugin architecture. Best for TypeScript teams wanting a modern Node.js stack.
+
+- **Shopware Community Edition** — Free self-hosted edition of Shopware. Best for European merchants wanting a mature open-source platform with B2B features.
+
+
+
+## How to Contribute
+
+
+
+1. Fork the repo.
+
+2. Add/edit entries in `README.md` (follow existing format).
+
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+
+4. Submit PR with a short explanation.
+
+
+
+Star the repo if you find it useful!
+
+
+
+## Disclaimer
+
+
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+
+- **Enterprise commerce pricing is GMV-based and opaque**: Salesforce Commerce Cloud charges **1% of GMV** for B2C ; Adobe Commerce Cloud uses GMV-based order forms without public rates ; SAP and commercetools are quote-only. Open-source alternatives eliminate these recurring percentage-of-revenue fees.
+
+- **Shopify Plus's $2,300/month is a floor, not the full budget**: variable platform fees apply for high-volume stores and complex B2B/D2C models . Realistic total cost including apps, theme, and development is typically several times the platform fee.
+
+- **BigCommerce offers the most transparent pricing**: Standard at $39/mo, Plus at $105/mo, Pro at $399/mo with volume-based scaling . Enterprise remains quote-only.
+
+- **Open-source platforms require infrastructure**: Magento, Medusa, and Saleor all need servers, databases, and maintenance—free software is not free operations.
+
+
+
+---
+
+
+
+**Made for merchants, commerce architects, and developers building scalable online stores.**  
+
 Let's make cloud e-commerce hosting more open, GMV-transparent, and self-hostable.
