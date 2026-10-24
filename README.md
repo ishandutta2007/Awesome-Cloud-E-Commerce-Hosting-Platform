@@ -64,7 +64,7 @@ The sector exhibits a **moderately fragmented** structure characterized by disti
 
 ## 💻 Open-Source GitHub Projects
 
-Curated self-hosted e-commerce engines, headless backends, and decoupled storefront frameworks sorted strictly by **GitHub Stars (Descending)**. Every repository provides source code freedom without GMV revenue penalties.
+Curated self-hosted e-commerce engines, headless backends, and decoupled storefront frameworks sorted strictly by **GitHub_Stars (Descending)**. Every repository provides source code freedom without GMV revenue penalties.
 
 - **[Medusa](https://github.com/medusajs/medusa)** [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
   ⚡ **The leading Node.js headless commerce engine.** MIT licensed. Highly modular architecture featuring 22 independent commerce modules, an orchestration workflow engine for complex multi-step digital operations, and a production-ready Next.js storefront starter. *Best for JavaScript and TypeScript engineers crafting custom composable digital shopping experiences with complete stack control.*
