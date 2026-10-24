@@ -30,45 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global e-commerce platforms and cloud hosting market is estimated at **$7.1B–$10.5B in 2025** (projected to reach **$16.5B–$20B+ by 2030** at a ~12–20% CAGR), supporting a broader multi-trillion dollar digital commerce transaction ecosystem. The market is **moderately fragmented**: it exhibits an oligopolistic concentration at the enterprise tier dominated by global technology conglomerates (SAP, Salesforce, Shopify, Adobe), while remaining highly fragmented across the mid-market and composable/headless API segments where specialized cloud and open-source platforms compete vigorously.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Shopify Plus](https://www.shopify.com/plus)** | Enterprise tier of Shopify with native B2B, checkout extensibility, and unlimited staff accounts. | **$2,300/month** (3-year term) or **$2,500/month** (1-year term) . Higher-volume merchants may move to variable pricing. | **No free tier**. Trial available via sales. |
-
-| **[Adobe Commerce Cloud (Magento)](https://business.adobe.com/products/magento/magento-commerce.html)** | Enterprise Magento with cloud hosting, B2B features, and AI-powered merchandising. | **Starting ~$40,000/year** on Cloud (GMV-based) . On-premise starts ~$22,000/year . | **No free tier**. Trial via sales. |
-
-| **[Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/)** | Enterprise B2B/B2C commerce on the Salesforce platform. | **B2B**: 1% of GMV (Growth) or 2% of GMV (Advanced) . **B2C**: 1–3% of GMV . | **No free tier**. Demo via sales. |
-
-| **[BigCommerce Enterprise](https://www.bigcommerce.com/enterprise/)** | Open SaaS platform with native B2B and headless capabilities. | **Performance (formerly Enterprise)**: Custom pricing **as low as $1,499/month** . **0.6% Open Payment Provider fee** on self-serve plans . | **No free tier**. Trial available. |
-
-| **[SAP Commerce Cloud](https://www.sap.com/products/crm/commerce-cloud.html)** | Enterprise commerce tightly integrated with SAP ERP. | **License alone ~$150K+/year** for mid-market; **first-year TCO ~$790K** for $50M GMV merchant . | **No free tier**. Demo via sales. |
-
-| **[commercetools](https://commercetools.com/)** | API-first, composable commerce platform for enterprise flexibility. | **Starting ~$40,000/year** license (third-party estimate); implementation often **3–5x the license fee** . | **No free tier**. Demo via sales. |
-
-| **[Spryker](https://spryker.com/)** | Composable, API-first B2B commerce and marketplace platform. | **AWS Marketplace listing**: **$900,000/year** (enterprise contract; variable licensing fees apply) . | **No free tier**. Demo via sales. |
-
-| **[OroCommerce](https://oroinc.com/)** | Purpose-built B2B commerce platform with native CRM/ERP integration. | **Quote-only**. Enterprise-tier pricing; no public list rates. | **No free tier**. Demo via sales. |
-
-| **[Shopware Cloud](https://www.shopware.com/)** | European open-source commerce platform with a managed cloud tier. | **Quote-only** for Cloud. Self-hosted Community Edition is free . | **Community Edition** (self-hosted) is free. Cloud has no permanent free tier. |
-
-| **[Elastic Path](https://www.elasticpath.com/)** | Composable commerce platform for B2B and complex catalogs. | **Starting ~$50,000/month** usage-based (Software Advice estimate) . | **No free tier**. Demo via sales. |
-
-
+| Product | Description | Company Size (Revenue / Valuation) | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[SAP Commerce Cloud](https://www.sap.com/products/crm/commerce-cloud.html)** | Enterprise commerce tightly integrated with SAP ERP and digital supply chain. | **~$250B+ Market Cap** (~$38B+ Annual Revenue) | **Starting ~$100,000/year** (annual license scaled by GMV bands) | **No free tier/trial**; 30-day trial license available via SAP Cloud Appliance Library (infrastructure compute billed separately by AWS/Azure/GCP). |
+| **[Shopify Plus](https://www.shopify.com/plus)** | Enterprise tier of Shopify with native B2B, custom checkout scripting, and multi-store expansion. | **~$220B+ Market Cap** (~$8.5B+ Annual Revenue) | **$2,300/month** (3-year term) or **$2,500/month** (1-year term); variable % on GMV for high volume | **No free tier**; standard Shopify 3-day trial excludes Plus features, promotional 1–2 month evaluations available on request via sales for qualifying merchants. |
+| **[Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/)** | Unified enterprise B2B and B2C commerce native to the Salesforce CRM and Data Cloud ecosystem. | **~$180B+ Market Cap** (~$35B+ Annual Revenue) | **B2B**: 1% GMV (Growth) / 2% GMV (Advanced); **B2C**: 1–3% GMV (min. enterprise commitments ~$100k+/year) | **No free tier/public trial**; On-Demand Sandboxes for partners/customers use usage-based credit consumption with Time-To-Live auto-termination. |
+| **[Adobe Commerce Cloud (Magento)](https://business.adobe.com/products/magento/magento-commerce.html)** | Enterprise cloud commerce with AI merchandising (Adobe Sensei) and native Adobe Experience Cloud integrations. | **~$100B+ Market Cap** (~$24B+ Annual Revenue) | **Starting ~$40,000/year** on Cloud (GMV-tiered; on-premise starts ~$22,000/year) | **No cloud free tier/trial**; guided sales demo only (local sandbox testing available indefinitely via free open-source Magento Open Source). |
+| **[commercetools](https://commercetools.com/)** | API-first, MACH-certified composable commerce platform powering headless architecture. | **~$1.9B Valuation** (~$150M+ ARR) | **Starting ~$40,000/year** (base SaaS platform license, scales by API volume/GMV) | **60-day free trial** with full core commerce API and Merchant Center access (excludes add-on frontend/inStore services; no credit card required). |
+| **[BigCommerce Enterprise](https://www.bigcommerce.com/enterprise/)** | Open SaaS enterprise platform featuring native B2B portal tools and headless storefront connectors. | **~$400M Market Cap** (~$345M Annual Revenue) | **Starting $1,499/month** (Performance/Enterprise tier; self-serve base plans start at $29/month) | **15-day free trial** (unlimited access to core features including customer groups & abandoned cart; excludes custom domain linking and 301 redirects; no credit card required). |
+| **[Spryker](https://spryker.com/)** | Composable B2B commerce and enterprise marketplace cloud engine. | **~$500M Valuation** (~$40M ARR) | **Starting ~$900,000/year** contract via AWS Marketplace listing (tailored mid-market licenses start ~$100k/year) | **No cloud free tier/trial**; sales-guided demo environments only (local demo shop available free for developers via open GitHub Docker SDK). |
+| **[Shopware Cloud](https://www.shopware.com/)** | European commercial commerce platform with managed cloud hosting and spatial commerce tools. | **~$100M Funded** (~$80M Annual Revenue) | **Starting $600/month** (Rise plan; Evolve plan starts at $2,400/month) | **30-day free trial** of Shopware Cloud commercial features (open-source Community Edition is free forever for self-hosting). |
+| **[Elastic Path](https://www.elasticpath.com/)** | Composable commerce platform specializing in family catalogs, multi-storefronts, and developer flexibility. | **~$110M+ Funded** (~$50M ARR) | **Starting $49,500/year** ($4,125/month billed annually for up to 15,000 orders or $5M GMV) | **6-week (42-day) trial store** environment available upon guided developer/sales request. |
+| **[OroCommerce](https://oroinc.com/)** | Dedicated B2B commerce platform with built-in CRM, buyer portals, and complex RFQ workflows. | **~$25M Funded** (~$15M+ ARR) | **Starting ~$22,000–$45,000/year** (Enterprise Edition license, scales by GMV and admin seats) | **No cloud free tier/trial**; custom sales-guided sandbox demos only (open-source Community Edition is free forever for self-hosting). |
 
 ## Open-Source GitHub Projects
 
